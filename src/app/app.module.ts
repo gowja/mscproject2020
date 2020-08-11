@@ -10,6 +10,13 @@ import { CampExternalComponent } from './camp-external/camp-external.component';
 import { ExternalComponent } from './external/external.component';
 import { PbComponent } from './pb/pb.component';
 import { PbviewComponent } from './pbview/pbview.component';
+import { StudentComponent } from './student/student.component';
+import { HomeComponent } from './home/home.component';
+import { LoginDeptComponent } from './login-dept/login-dept.component';
+import { PbloginComponent } from './pblogin/pblogin.component';
+import { CamploginComponent } from './camplogin/camplogin.component';
+import { SinternalComponent } from './sinternal/sinternal.component';
+import { SgradecardComponent } from './sgradecard/sgradecard.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +27,14 @@ import { PbviewComponent } from './pbview/pbview.component';
     CampExternalComponent,
     ExternalComponent,
     PbComponent,
-    PbviewComponent
+    PbviewComponent,
+    StudentComponent,
+    HomeComponent,
+    LoginDeptComponent,
+    PbloginComponent,
+    CamploginComponent,
+    SinternalComponent,
+    SgradecardComponent
   ],
   imports: [
     BrowserModule,
