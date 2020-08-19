@@ -12,13 +12,14 @@ import { LoginDeptComponent } from './login-dept/login-dept.component';
 import { PbloginComponent } from './pblogin/pblogin.component';
 import { SinternalComponent } from './sinternal/sinternal.component';
 import { SgradecardComponent } from './sgradecard/sgradecard.component';
+import { CamploginComponent } from './camplogin/camplogin.component';
 
 
 const routes: Routes = [
   {path:'',component:HomeComponent},
   {path:'dlogin',component:LoginDeptComponent},
   {path:'pblogin',component:PbloginComponent},
-  {path:'clogin',component:CampExternalComponent},
+  {path:'clogin',component:CamploginComponent},
   {path:'dept',component:DeptInternalComponent,
   children:[
     {path:"internal",component:InternalComponent}
