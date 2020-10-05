@@ -17,6 +17,13 @@ import { PbloginComponent } from './pblogin/pblogin.component';
 import { CamploginComponent } from './camplogin/camplogin.component';
 import { SinternalComponent } from './sinternal/sinternal.component';
 import { SgradecardComponent } from './sgradecard/sgradecard.component';
+import { Pb1Component } from './pb1/pb1.component';
+import { PbaddComponent } from './pbadd/pbadd.component';
+import { PbremoveComponent } from './pbremove/pbremove.component';
+import { AddstudComponent } from './addstud/addstud.component';
+import { RemovestudComponent } from './removestud/removestud.component';
+import { Addinternal1Component } from './addinternal1/addinternal1.component';
+import { Removestud1Component } from './removestud1/removestud1.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +41,14 @@ import { SgradecardComponent } from './sgradecard/sgradecard.component';
     PbloginComponent,
     CamploginComponent,
     SinternalComponent,
-    SgradecardComponent
+    SgradecardComponent,
+    Pb1Component,
+    PbaddComponent,
+    PbremoveComponent,
+    AddstudComponent,
+    RemovestudComponent,
+    Addinternal1Component,
+    Removestud1Component
   ],
   imports: [
     BrowserModule,
