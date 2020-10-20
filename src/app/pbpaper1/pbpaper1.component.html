@@ -1,19 +1,14 @@
-<h2 class="head">University Of Calicut</h2>
-<div>
-    <h3 class="head">Pareeksha Bhavan</h3>
-    <h4 class="head">View - Pareeksha Bhavan</h4>
-    <div class="logout">
-        <a routerLink=''><button class="btn btn-danger">LogOut</button></a>
-    </div>
-</div>
 <div class="container jumbotron">
     <div class="form-group">
         <div class="dropdown">
-            <label>Year Of Admission</label><br>
+            <label>Department</label><br>
             <select class="form-control">
-                <option>2019</option>
-                <option>2018</option>
-                <option>2017</option>
+                <option>Computer Science</option>
+                <option>Mathematics</option>
+                <option>Statistics</option>
+                <option>Philosophy</option>
+                <option>History</option>
+                <option>Economics</option>
             </select>
         </div>
     </div>
@@ -29,9 +24,10 @@
         </div>
     </div>
     <div class="form-group">
-        <a routerLink='pbview'><button class="btn btn-secondary form-control">Submit</button></a>
+        <a routerLink='pbpaper'><button class="btn btn-secondary form-control">Submit</button></a>
     </div>
 </div>
 <div>
     <router-outlet></router-outlet>
 </div>
+

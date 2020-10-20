@@ -20,6 +20,8 @@ import { AddstudComponent } from './addstud/addstud.component';
 import { RemovestudComponent } from './removestud/removestud.component';
 import { Addinternal1Component } from './addinternal1/addinternal1.component';
 import { Removestud1Component } from './removestud1/removestud1.component';
+import { PbpaperComponent } from './pbpaper/pbpaper.component';
+import { Pbpaper1Component } from './pbpaper1/pbpaper1.component';
 
 
 const routes: Routes = [
@@ -50,6 +52,10 @@ const routes: Routes = [
   {path:'pb1',component:Pb1Component,
   children:[
     {path:'pbadd',component:PbaddComponent},
+    {path:'pbpaper1',component:Pbpaper1Component,
+    children:[
+      {path:'pbpaper',component:PbpaperComponent}
+    ]},
     {path:'pbremove',component:PbremoveComponent}
   ]},
   {path:'student',component:StudentComponent,

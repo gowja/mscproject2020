@@ -24,6 +24,8 @@ import { AddstudComponent } from './addstud/addstud.component';
 import { RemovestudComponent } from './removestud/removestud.component';
 import { Addinternal1Component } from './addinternal1/addinternal1.component';
 import { Removestud1Component } from './removestud1/removestud1.component';
+import { PbpaperComponent } from './pbpaper/pbpaper.component';
+import { Pbpaper1Component } from './pbpaper1/pbpaper1.component';
 
 @NgModule({
   declarations: [
@@ -48,7 +50,9 @@ import { Removestud1Component } from './removestud1/removestud1.component';
     AddstudComponent,
     RemovestudComponent,
     Addinternal1Component,
-    Removestud1Component
+    Removestud1Component,
+    PbpaperComponent,
+    Pbpaper1Component
   ],
   imports: [
     BrowserModule,
